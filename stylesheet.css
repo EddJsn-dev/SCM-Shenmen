@@ -30,7 +30,6 @@ h2
         width: 50%;
         text-align: center;
         font-size: 3em;
-        text-decoration-line: underline;
         vertical-align: middle;
         line-height: 150px;
 
@@ -52,13 +51,12 @@ h2
     {
         width: 50%;
         text-align: center;
-        margin: 10px;
+        margin: 0px;
     }
 
 .nom
     {
         text-align: center;
-        text-decoration-line: underline;
         font-size: 3em;
         text-transform: uppercase;
 
@@ -84,3 +82,7 @@ footer
 .adresse {text-align: left; font-weight: bold; font-size: 1.5em; margin-bottom: 10px;}
 .coordonnée {text-align: left; font-weight: bold; font-size: 1.5em; margin-bottom: 10px;}
 .téléphone {text-align: left; font-weight: bold; margin-bottom: 10px;}
+
+a {text-decoration: none}
+a:hover {border-bottom: 4px black solid;}
+a:active {color: white; background-color:gray}
