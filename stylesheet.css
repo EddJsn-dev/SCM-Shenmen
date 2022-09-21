@@ -1,0 +1,72 @@
+body {margin: 0; background-color: rgb(228, 219, 219); color: black; font-family: 'Times New Roman', Times, serif;}
+
+header
+    {
+        font-size: 4em;
+        text-align: center;
+        padding: 0px;
+        text-transform: uppercase;
+    }
+
+#cabinet
+    {
+        display: flex;
+        justify-content: center;
+        text-transform: uppercase;
+    }
+
+.cab
+    {
+        width: 50%;
+        text-align: center;
+        font-size: 3em;
+        text-decoration-line: underline;
+    }
+
+.imgcab
+    {
+        width: 50%;
+    }
+
+#praticien
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+.prat
+    {
+        width: 50%;
+        text-align: center;
+        margin: 10px;
+    }
+
+.nom
+    {
+        text-align: center;
+        text-decoration-line: underline;
+        font-size: 3em;
+        text-transform: uppercase;
+
+    }
+
+.liste {list-style-type: none; font-size: 1.5em;}
+
+.imgprat
+    {
+        width: 50%;
+    }
+
+footer
+    {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+
+.horaires {text-align: left; font-weight: bold; font-size: 1.5em; margin-bottom: 10px;}
+.jour {padding-left: 10px; padding-right: 10px; padding-top: 5px; padding-bottom: 5px; font-weight: bold;}
+
+.adresse {text-align: left; font-weight: bold; font-size: 1.5em; margin-bottom: 10px;}
+.coordonnée {text-align: left; font-weight: bold; font-size: 1.5em; margin-bottom: 10px;}
+.téléphone {text-align: left; font-weight: bold; margin-bottom: 10px;}
